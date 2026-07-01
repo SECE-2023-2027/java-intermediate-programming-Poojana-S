@@ -10,5 +10,6 @@ public class Main {
         acc.deposit(200);
         acc.withdraw(800);
         System.out.println(acc.getBalance());
+        sc.close();
     }
 }

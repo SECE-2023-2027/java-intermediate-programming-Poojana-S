@@ -13,5 +13,6 @@ public class Main {
         p.applyDiscount(percent);
         System.out.println(p.getPrice());
         System.out.println(p.getStockQuantity());
+        sc.close();
     }
 }
